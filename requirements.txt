@@ -5,3 +5,4 @@ uvicorn[standard]==0.29.0
 
 #Streaming uploads for large files.
 python-multipart==0.0.9  
+python-dotenv==1.0.1
