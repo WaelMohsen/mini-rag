@@ -8,8 +8,7 @@ load_dotenv(".env.example")
 
 app = FastAPI()
 
-API_KEY_HEADER = "x-api-key"
-api_key_header = APIKeyHeader(name=API_KEY_HEADER, auto_error=False)
+api_key_header = APIKeyHeader(name="x-api-key", auto_error=False)
 
 def verify_api_key(api_key: str | None = Depends(api_key_header)):
     expected_api_key = "941305a0-c7ba-4678-b364-2efb7aa234f2"
