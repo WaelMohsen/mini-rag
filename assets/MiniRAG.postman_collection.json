@@ -1,0 +1,126 @@
+{
+  "info": {
+    "_postman_id": "ae27eda2-b682-4953-96e6-eed39a8a527f",
+    "name": "MiniRAG",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "22270361"
+  },
+  "item": [
+    {
+      "name": "welcome",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "941305a0-c7ba-4678-b364-2efb7aa234f2",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/HelloWorldApi/welcome",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "HelloWorldApi",
+            "welcome"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Succeess",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/welcome",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "welcome"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "date",
+              "value": "Sun, 18 Jan 2026 20:21:21 GMT"
+            },
+            {
+              "key": "server",
+              "value": "uvicorn"
+            },
+            {
+              "key": "content-length",
+              "value": "26"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Hello World!\"\n}"
+        },
+        {
+          "name": "welcome",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "941305a0-c7ba-4678-b364-2efb7aa234f2",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:5000/HelloWorldApi/welcome",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "HelloWorldApi",
+                "welcome"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "date",
+              "value": "Sun, 18 Jan 2026 22:21:21 GMT"
+            },
+            {
+              "key": "server",
+              "value": "uvicorn"
+            },
+            {
+              "key": "content-length",
+              "value": "26"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Hello World!\"\n}"
+        }
+      ]
+    }
+  ]
+}
